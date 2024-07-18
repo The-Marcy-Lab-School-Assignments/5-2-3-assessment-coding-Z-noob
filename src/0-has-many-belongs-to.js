@@ -10,8 +10,6 @@ class ToDoItem {
   }
   extra() {};
 }
-
-
 class ToDoList {
   static #allLists = [];
   listItems = [];
@@ -41,12 +39,12 @@ class ToDoList {
   }
 }
 
-const chores = new ToDoList(ToDoItem, "This week's tasks");
-const groceries = new ToDoList(ToDoItem, "This week's groceries");
-const homework = new ToDoList(ToDoItem, "This week's homework");
-console.info(chores)
-console.info(chores.id)
-console.info(ToDoList.findBy(chores.id))
+// const chores = new ToDoList(ToDoItem, "This week's tasks");
+// const groceries = new ToDoList(ToDoItem, "This week's groceries");
+// const homework = new ToDoList(ToDoItem, "This week's homework");
+// console.info(chores)
+// console.info(chores.id)
+// console.info(ToDoList.findBy(chores.id))
 
 module.exports = {
   ToDoItem,
